@@ -1,0 +1,13 @@
+body {
+    background-image: url(assets/duckhuntBackground.png);
+    background-size: cover;
+}
+
+img{
+    margin:50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  }

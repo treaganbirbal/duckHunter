@@ -19,7 +19,11 @@
   // - Use that function to fire the "moveDuck" function every 2 seconds.
 
 // CODE GOES BELOW THIS LINE
+let duck = document.querySelector('.duck')
+let score = document.querySelector('#score')
 
-document.addEventListener('DomContentLoaded', () => {
+function handleClick(event){
+    console.log(event.target)
+}
 
-})
+score.addEventListener('click', handleClick)

@@ -33,7 +33,11 @@ function increaseScore(){
     score.innerHTML = numberedScore
 }
 
-function moveDuck (){
+function moveDuck(){
+
+}
+
+function randomNum(){
     
 }
 

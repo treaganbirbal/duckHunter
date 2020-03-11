@@ -35,7 +35,7 @@ function increaseScore(){
 
 function moveDuck(){
  let width = window.innerWidth;
- let height = windwow.innerHeight;
+ let height = window.innerHeight;
  duck.style.top = randomNum(width) + 'px';
  duck.style.left = randomNum(height) + 'px';
 }

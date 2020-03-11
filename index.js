@@ -35,10 +35,15 @@ function increaseScore(){
 
 function moveDuck(){
 
+ randomNum(5);
 }
 
-function randomNum(){
-    
+function randomNum(num){
+    console.log(Math.floor(Math.random() * Math.floor(num)));
+   return Math.floor(Math.random() * Math.floor(num))
 }
+
+
 
 duck.addEventListener('click', increaseScore)
+duck.addEventListener('click', moveDuck)

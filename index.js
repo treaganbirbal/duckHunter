@@ -46,5 +46,6 @@ function randomNum(num){
 }
 
 
-
 duck.addEventListener('click', () => {increaseScore(); moveDuck()})
+
+window.setInterval(moveDuck, 1000)

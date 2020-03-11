@@ -34,7 +34,10 @@ function increaseScore(){
 }
 
 function moveDuck(){
- randomNum(5);
+ let width = window.innerWidth;
+ let height = windwow.innerHeight;
+ duck.style.top = randomNum(width) + 'px';
+ duck.style.left = randomNum(height) + 'px';
 }
 
 function randomNum(num){

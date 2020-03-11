@@ -27,9 +27,10 @@ function handleClick(event){
 }
 
 function increaseScore(event){
-    let score = Number(event.target.innerText)
-    ++score
-    event.target.innerText = score
+    let score = document.querySelector('#score');
+    let numberedScore = Number(score.innerHTML)
+    ++numberedScore
+    score.innerHTML = numberedScore
 }
 
-score.addEventListener('click', increaseScore)
+duck.addEventListener('click', increaseScore)

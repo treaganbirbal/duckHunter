@@ -21,6 +21,7 @@
 // CODE GOES BELOW THIS LINE
 let duck = document.querySelector('.duck')
 let score = document.querySelector('#score')
+console.log(window)
 
 function handleClick(event){
    console.log(event)
@@ -41,7 +42,6 @@ function moveDuck(){
 }
 
 function randomNum(num){
-    console.log(Math.floor(Math.random() * Math.floor(num)));
    return Math.floor(Math.random() * Math.floor(num))
 }
 

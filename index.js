@@ -34,7 +34,6 @@ function increaseScore(){
 }
 
 function moveDuck(){
-
  randomNum(5);
 }
 

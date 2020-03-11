@@ -44,5 +44,4 @@ function randomNum(num){
 
 
 
-duck.addEventListener('click', increaseScore)
-duck.addEventListener('click', moveDuck)
+duck.addEventListener('click', () => {increaseScore(); moveDuck()})

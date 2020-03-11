@@ -23,7 +23,11 @@ let duck = document.querySelector('.duck')
 let score = document.querySelector('#score')
 
 function handleClick(event){
-    console.log(event.target)
+   console.log(event)
 }
 
-score.addEventListener('click', handleClick)
+function increaseScore(){
+    
+}
+
+duck.addEventListener('click', handleClick)
